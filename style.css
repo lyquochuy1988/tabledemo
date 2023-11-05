@@ -1,10 +1,11 @@
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 50%;
     table-layout: fixed;
+    font-size: 15px;
 }
 
 table caption {
@@ -92,7 +93,7 @@ thead, tbody, table tr { display: block; }
 
 tbody {
     display: block;
-    height: 700px;       /* Just for the demo          */
+    height: 300px;       /* Just for the demo          */
     overflow-y: auto;    /* Trigger vertical scroll    */
     overflow-x: hidden;  /* Hide the horizontal scroll */
 }
