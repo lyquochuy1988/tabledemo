@@ -1,7 +1,7 @@
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     width: 50%;
     table-layout: fixed;
