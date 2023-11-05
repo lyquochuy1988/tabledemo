@@ -5,7 +5,7 @@ table {
     padding: 0;
     width: 50%;
     table-layout: fixed;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 table caption {
@@ -78,7 +78,8 @@ table th {
         border-bottom: 0;
     }
 
-    tbody td, thead th {
+    tbody td,
+    thead th {
         width: initial !important;
     }
 }
@@ -89,16 +90,20 @@ body {
     line-height: 1.25;
 }
 
-thead, tbody, table tr { display: block; }
+thead,
+tbody,
+table tr {
+    display: block;
+}
 
 tbody {
     display: block;
-    height: 300px;       /* Just for the demo          */
-    overflow-y: auto;    /* Trigger vertical scroll    */
-    overflow-x: hidden;  /* Hide the horizontal scroll */
+    height: 300px; /* Just for the demo          */
+    overflow-y: auto; /* Trigger vertical scroll    */
+    overflow-x: hidden; /* Hide the horizontal scroll */
 }
 
-tbody td, thead th {
+tbody td,
+thead th {
     width: 300px;
 }
-
